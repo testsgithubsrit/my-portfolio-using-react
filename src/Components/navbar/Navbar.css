@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
     position: relative;
     top: 0;
     left: 0;
@@ -16,13 +16,35 @@
     height: 100vh;
     width: 100vw;
     perspective: 1500px;
-  }
+  }*/
   
   .nav-item {
     padding-left: 25px;
   }
-  .active:hover {
   
-    border-bottom: 2px solid gold;
-  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: border-bottom 0.3s ease;
   }
+  
+  .nav-link:link,
+  .nav-link:visited {
+    color: #cb1d1d;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    border-bottom: 2px solid gold; /* Optional hover effect */
+  }
+  
+  section:target + nav .nav-link[href="#Home"],
+  section:target + nav .nav-link[href="#About"],
+  section:target + nav .nav-link[href="#Resume"],
+  section:target + nav .nav-link[href="#Experience"],
+  section:target + nav .nav-link[href="#Contact"] {
+    border-bottom: 2px solid gold;
+    
+  }
+  

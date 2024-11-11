@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import Footer from '../Footer/Footer';
 import './Contact.css';
 const Contact = () => {
   const{
@@ -94,7 +95,7 @@ const Contact = () => {
   </div>
 </form>
 </div>
-    
+  <Footer/>  
 </div> 
     </>
   )

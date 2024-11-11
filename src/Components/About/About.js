@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-
+import Footer from '../Footer/Footer'
 const About = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const About = () => {
           <div className="row home">
              
               <div className="col-sm-4">
-                  <div className="home-img">
+                  <div className="home-imgs">
                       <img src="../neha.jpg" alt="profile pic" className="profile-pic"/>
                   </div>
   
@@ -31,7 +31,7 @@ When I’m not coding, I enjoy reading, exploring tech trends, or learning new t
                   </div>
               </div>
           </div>
-  
+  <Footer/>
         </div>
       
      

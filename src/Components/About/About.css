@@ -1,8 +1,35 @@
 .profile-pic{
   
-    height: 200px;
-    width: 200px;
+    height: 340px;
+    width: 340px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px rgba(12, 10, 12, 0.9) ;
     border: 5px double purple;
+}
+/*.home-imgs {
+  
+    margin-top: 
+    
+  
+  
+  }*/
+  @media screen and (max-width: 748px) {
+    /*.home-imgs {
+  
+        margin-top: 5px;
+        
+    
+  }*/
+  .home {
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+  
+  }
+  .home-info {
+    position: relative;
+    top: 40px; 
+  
+  }
 }

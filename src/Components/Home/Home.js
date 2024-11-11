@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import Footer from '../Footer/Footer';
 import './Home.css';
 
 function Home() {
@@ -54,10 +55,10 @@ function Home() {
   
               </div>
           </div>
-  
+          <Footer/>
         </div>
-      
-     
+        
+       
      </>
     );
     

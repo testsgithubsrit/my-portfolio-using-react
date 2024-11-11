@@ -68,7 +68,7 @@ import React from 'react';
 import html2pdf from 'html2pdf.js';
 
 import { Link } from 'react-router-dom';
-
+import Footer from '../Footer/Footer';
 import './Resume.css'; // Ensure this is uncommented 
 
 const Resume = () => {
@@ -310,8 +310,9 @@ const Resume = () => {
 
           </div>
         </div>
+
         </div>
-    
+        <Footer/>
     </>
   );
 }

@@ -12,6 +12,7 @@
   
   .sci {
     margin-top: 30px;
+    
   
   }
   
@@ -60,15 +61,15 @@
   .home-img {
   
     margin-top: 30px;
-    height: 500px;
+
   
   
   }
   
   .profile {
   
-    height: 200px;
-    width: 200px;
+    height: 340px;
+    width: 340px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9) inset;
     animation: glow 5s linear infinite;
@@ -83,5 +84,21 @@
   
     100% {
       box-shadow: 5px 5px 5px 15px purple;
+    }
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 748px) {
+    .sci{
+      margin-bottom: 50px;
+    }
+    .profile {
+  
+      height: 300px;
+      width: 300px;
     }
   }
