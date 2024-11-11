@@ -36,7 +36,7 @@ function Home() {
                       </div>
                           <div className="sci">
                               
-                              <a href="https://github.com/testsgithubsrit"className="text-dark ">
+                              <a href=" https://github.com/testsgithubsrit?tab=repositories"className="text-dark ">
                                   <span className="bi bi-github icons "></span>Github
                               </a>
                               <a href="https://www.linkedin.com/in/neha-k-b28487278/"className="text-dark">
