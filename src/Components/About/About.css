@@ -14,12 +14,17 @@
   
   }*/
   @media screen and (max-width: 748px) {
-    /*.home-imgs {
+    .home-imgs {
   
-        margin-top: 5px;
+        margin-top: 40px;
         
     
-  }*/
+  }
+  .profile-pic{
+  
+    height: 240px;
+    width: 240px;
+  }
   .home {
     position: relative;
     top: 5%;
