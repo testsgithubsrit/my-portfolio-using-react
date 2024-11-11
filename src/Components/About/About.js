@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 const About = () => {
   return (
     <>
-
+<div className='body'>
 <div className=" text-center">
           <div className="row home">
              
@@ -31,9 +31,10 @@ When I’m not coding, I enjoy reading, exploring tech trends, or learning new t
                   </div>
               </div>
           </div>
-  <Footer/>
+ 
         </div>
-      
+        </div>
+        <Footer/>
      
     </>
   )

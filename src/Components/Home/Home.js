@@ -23,6 +23,7 @@ function Home() {
     }, []);
     return (
      <>
+     <div className='body'>
     <div className=" text-center">
           <div className="row home">
               <div className="col-sm-8">
@@ -55,10 +56,11 @@ function Home() {
   
               </div>
           </div>
-          <Footer/>
+         
         </div>
         
-       
+       </div>
+        <Footer/>
      </>
     );
     

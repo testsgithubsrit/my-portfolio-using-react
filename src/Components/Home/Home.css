@@ -1,3 +1,34 @@
+
+/*.body{
+  background-color: rgb(205, 200, 200);
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+
+}*/
+
+.body {
+ /* display: flex;
+  flex-direction: column;*/
+  min-height: 100vh; /* Ensures it takes up full viewport height */
+  background-color: rgb(205, 200, 200);
+  overflow: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bi {
     padding: 10px;
     color: gold;
@@ -25,19 +56,25 @@
   
   
   
-  .text-center {
-    position: absolute;
-    width: 100%;
+  /*.text-center {
+  
+   width: 100%;
     height: 100%;
-    /*  background:linear-gradient(pink,blue,grey,pink);*/
+    
     background-color: rgb(205, 200, 200);
     overflow-x: auto;
   
   
-  }
+}*/
+  
+
+
+
+
+
   
   .home {
-    position: relative;
+    position: absolute;
     top: 20%;
     display: flex;
     align-items: center;
