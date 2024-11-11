@@ -25,7 +25,7 @@ const Contact = () => {
   };
   return (
     <>
-    <div className='bg'>
+    <div className='body'>
     <div className='containers mt-4'>
     <form onSubmit={handleSubmit (onSubmit)} >
     <div className="mb-3 ">
